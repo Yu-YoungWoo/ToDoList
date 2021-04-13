@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+/*content center start */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nanum Pen Script', cursive, 'sans-serif';
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+/*content center end */
+
+
+/* ToDoList Title start */
+.container .title {
+    display: inline-block;
+    
+}
+
+.title h2 {
+    font-size: 80px;
+}
+
+.container .form-container {
+    margin-top: 60px;
+}
+/* ToDoList Title end */
+
+
+
+/* ToDoList Add ToDo start */
+.form-container .add {
+    display: flex;
+    
+}
