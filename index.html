@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UaTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> <!--CDN 링크 -->
         <title>ToDoList</title>
     </head>
 
@@ -16,15 +16,15 @@
             </div>
             <div class="form-container">
                 <form class="form-add">
-                    <input type="text" class="todo-input" placeholder="What are your goal?">
+                    <input type="text" class="todo-input" name="form-add" 
+                        placeholder="What are your goals?">
                     <div class="input-button">
-                        <a href="#" class="add-todo" target="_blank"> 
+                        <a href="#0" class="add-todo"> 
                             <i class="fa fa-plus fa-2x"></i>
                         </a>
                     </div>
                 </form>
             </div>
-
             <div class="todo-list">
                 <ul class="list-set">
                     <li>
@@ -36,28 +36,43 @@
                         <i class="far fa-trash-alt delete"></i>
                     </li>
                     <li>
-                        <input type="checkbox" id="todo_1">
-                        <label for="todo_1">
+                        <input type="checkbox" id="todo_2">
+                        <label for="todo_2">
                             <span class="check"></span>
-                            Master HTML!
+                            Hello HTML!
                         </label>
                         <i class="far fa-trash-alt delete"></i>
                     </li>
                     <li>
-                        <input type="checkbox" id="todo_1">
-                        <label for="todo_1">
+                        <input type="checkbox" id="todo_3">
+                        <label for="todo_3">
                             <span class="check"></span>
                             Hello CSS!
                         </label>
                         <i class="far fa-trash-alt delete"></i>
                     </li>
-        
+                    <li>
+                        <input type="checkbox" id="todo_4">
+                        <label for="todo_4">
+                            <span class="check"></span>
+                            Hello JS!
+                        </label>
+                        <i class="far fa-trash-alt delete"></i>
+                    </li>
                 </ul>
 
             </div>
         </div>
 
-        <script src="ToDo.js"></script>
+        <!--
+        <footer class="dev-info">
+            <div class="dev-icons">
+
+            </div>
+        </footer>
+        -->
+
+        <script type="text/javascript" src="ToDo.js"></script>
     </body>
 
 </html>
